@@ -5,7 +5,7 @@
     state: present
   with_items:
    - unzip
-   - default-jdk
+   - openjdk-7-jdk
 
 - name: Download JBoss from jboss.org
   get_url:
