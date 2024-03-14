@@ -1,6 +1,5 @@
 ---
 - name: Install Java 1.7 and some basic dependencies
-  shell : apt update
   apt:
     name: "{{ item }}"
     state: present
